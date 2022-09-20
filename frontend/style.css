@@ -1,5 +1,4 @@
 /* --- start of CSS reset --- */
-
 * {
     margin: 0;
     padding: 0;
@@ -34,8 +33,11 @@ select {
     appearance: none !important;
     border-radius: 0;
 }
-
 /* --- end of CSS reset --- */
+
+html {
+  scroll-behavior: smooth;
+}
 
 /* this class is applied to all main sections  */
 .container {
@@ -43,6 +45,7 @@ select {
     width: 100%;
     display: flex;
 }
+
 /* first page */
 .landingPage {
     display: flex;
@@ -70,6 +73,7 @@ select {
     font-size: 4vh;
     background-color: #e3913f;
 }
+
 /* second page  */
 .introPage {
     background-image: url("img/background(2).png");
@@ -124,6 +128,7 @@ select {
     background-size: 100%;
 }
 
+/* fourth page  */
 .contactPage {
     background-image: url("img/background(2).png");
     background-repeat: no-repeat;
