@@ -36,3 +36,49 @@ select {
 }
 
 /* --- end of CSS reset --- */
+* {
+  /* only for testing purposes */
+  /* border: 1px solid white;   */
+}
+/* this class is applied to all main sections  */
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+/* first page */
+.landingPage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("/frontend/img/hatter.png");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+.landingPageTitle {
+  background-color: #E3913F;
+}
+.landingPageCenter {
+  background-color: #E3913FB2;
+  height: 50vh;
+  width: 35vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.landingPageCenter button {
+  font-size: 4vh;
+  background-color: #E3913F;
+}
+/* second page  */
+.introPage {
+  background-image: url("/frontend/img/background(2).png");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 24px;
+  flex-flow: row wrap;
+}
