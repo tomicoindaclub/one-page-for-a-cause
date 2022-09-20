@@ -111,12 +111,13 @@ select {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
+/* teller */
 .honorPage > div:nth-of-type(3) {
     background-image: url("img/Teller.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
+/* béres */
 .honorPage > div:nth-of-type(4) {
     background-image: url("img/Beres.png");
     background-repeat: no-repeat;
