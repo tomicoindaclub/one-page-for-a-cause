@@ -1,38 +1,136 @@
 /* --- start of CSS reset --- */
-
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: none;
-  box-sizing: border-box;
-  background: transparent;
-  font-family: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a img {
-  border: none;
+    border: none;
 }
 
 button,
 a {
-  cursor: pointer;
-  color: inherit;
+    cursor: pointer;
+    color: inherit;
 }
 
 textarea {
-  resize: none;
+    resize: none;
 }
 
 button,
 textarea,
 select {
-  appearance: none !important;
-  border-radius: 0;
+    appearance: none !important;
+    border-radius: 0;
+}
+/* --- end of CSS reset --- */
+
+html {
+  scroll-behavior: smooth;
 }
 
-/* --- end of CSS reset --- */
+/* this class is applied to all four containers  */
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+/* first page */
+.landingPage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("img/hatter.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+.landingPageTitle {
+    background-color: #E3913FB2;
+}
+.landingPageCenter {
+    background-color: #e3913fb2;
+    height: 50vh;
+    width: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.landingPageCenter button {
+    font-size: 4vh;
+    background-color: #e3913f;
+}
+
+/* second page  */
+.introPage {
+    background-image: url("img/background(2).png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 24px;
+    flex-flow: row wrap;
+}
+
+/* third page */
+.honorPage {
+    display: flex;
+    flex-direction: column;
+    height: 200vh; /* 2x bigger than other sections */
+}
+.honorPage > div {
+    height: 50vh;
+    width: 100%;
+}
+/* neumann */
+.honorPage > div:nth-of-type(1) {
+    display: flex;
+    background-image: url("img/Neumann.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.neumannIntro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #e3913fd9;
+    color: white;
+}
+/* telkes */
+.honorPage > div:nth-of-type(2) {
+    background-image: url("img/Telkes.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* teller */
+.honorPage > div:nth-of-type(3) {
+    background-image: url("img/Teller.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* béres */
+.honorPage > div:nth-of-type(4) {
+    background-image: url("img/Beres.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* fourth page  */
+.contactPage {
+    background-image: url("img/background(2).png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
