@@ -118,17 +118,44 @@ html {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.Telkes {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #e3913fd9;
+  color: white;
+  font-family: font-family: 'Roboto', sans-serif;
+  flex-flow: row wrap;
+
+}
 /* teller */
 .honorPage > div:nth-of-type(3) {
   background-image: url("img/Teller.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
+.Teller {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #e3913fd9;
+  color: white;
+}
 /* béres */
 .honorPage > div:nth-of-type(4) {
   background-image: url("img/Beres.png");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+.Béres {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #e3913fd9;
+  color: white;
 }
 
 /* fourth page  */
