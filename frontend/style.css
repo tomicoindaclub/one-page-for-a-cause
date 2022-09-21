@@ -61,6 +61,7 @@ html {
 }
 .landingPageTitle {
   background-color: #e3913fb2;
+  font-family: "Raleway", sans-serif;
 }
 .landingPageCenter {
   background-color: #e3913fb2;
@@ -69,10 +70,12 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  font-family: "Raleway", sans-serif;
 }
 .landingPageCenter button {
   font-size: 4vh;
   background-color: #e3913f;
+  font-family: "Raleway", sans-serif;
 }
 
 /* second page  */
