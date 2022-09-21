@@ -96,6 +96,14 @@ html {
   display: flex;
   justify-content: center;
   margin-top: 10vh;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .introPageContent {
@@ -108,9 +116,22 @@ html {
   display: flex;
   justify-content: center;
 }
+.introPageLeft {
+  background: rgba(227, 145, 63, 0.85);
+  border-right: 8px solid #6a4811;
+  box-shadow: 5px 8px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px 10px 0px;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: left;
+}
 .introPageRight img {
-  width: 45vh;
-  height: 45vh;
+  width: 55vh;
+  height: 55vh;
 }
 /* third page */
 .honorPage {
