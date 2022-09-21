@@ -37,6 +37,7 @@ select {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* this class is applied to all four containers  */
