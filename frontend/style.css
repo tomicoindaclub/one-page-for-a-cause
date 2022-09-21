@@ -92,7 +92,26 @@ html {
   text-align: center;
   justify-content: center;
 }
+.introPageHeader {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
 
+.introPageContent {
+  display: flex;
+  flex-direction: row;
+}
+.introPageLeft,
+.introPageRight {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.introPageRight img {
+  width: 45vh;
+  height: 45vh;
+}
 /* third page */
 .honorPage {
   display: flex;
