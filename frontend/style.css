@@ -105,6 +105,15 @@ html {
   align-items: center;
   text-align: center;
 }
+button {
+  background: #e3913f;
+  border-right: 8px solid #6a4811;
+  box-shadow: 5px 8px 4px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  height: 30px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
 
 .introPageContent {
   display: flex;
@@ -239,5 +248,22 @@ html {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+h2 {
+  color: white;
+  justify-content: center;
+}
+.contactBox {
+  background-color: #e3913fb2;
+  height: 50vh;
+  width: 35vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
 iframe {
+  width: 450px;
+  height: 300px;
+  margin-top: 200px;
 }
