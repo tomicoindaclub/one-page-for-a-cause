@@ -82,7 +82,7 @@ html {
   background-repeat: no-repeat;
   background-size: 100%;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   flex-flow: row wrap;
   color: white;
 }
@@ -93,69 +93,98 @@ html {
   flex-direction: column;
   height: 200vh; /* 2x bigger than other sections */
 }
-.honorPage > div {
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   height: 50vh;
+}
+.row .honorPageImage img:hover {
+  filter: none;
+  transition: all ease-in-out 0.3s;
+}
+.honorPageImage {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+.honorPageImage img {
+  filter: blur(6px);
+  margin: -5px -10px -10px -5px;
   width: 100%;
 }
-/* neumann */
-.honorPage > div:nth-of-type(1) {
-  display: flex;
-  background-image: url("img/Neumann.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.neumannIntro {
+.honorTextRight {
+  position: absolute;
   width: 50%;
-  display: flex;
+  left: 80%;
+  height: 50vh;
+  text-align: left;
   flex-direction: column;
-  justify-content: space-evenly;
   background-color: #e3913fd9;
+  font-family: "Roboto", sans-serif;
   color: white;
+  border-left: 8px solid #6a4811;
+  box-shadow: -10px 0px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 0px 0px 10px;
 }
-/* telkes */
-.honorPage > div:nth-of-type(2) {
-  background-image: url("img/Telkes.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+.honorTextRight:hover {
+  left: 50%;
+  transition: all ease-in-out 0.5s;
 }
-.Telkes {
+.honorTextRight h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 2rem;
+}
+.honorTextRight p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 2rem;
+  margin-right: 10rem;
+}
+.honorTextLeft {
+  position: absolute;
   width: 50%;
-  display: flex;
+  right: 80%;
+  height: 50vh;
+  text-align: right;
   flex-direction: column;
-  justify-content: space-evenly;
   background-color: #e3913fd9;
+  font-family: "Roboto", sans-serif;
   color: white;
-  font-family: 'Roboto', sans-serif;
-  flex-flow: row wrap;
-
+  background: rgba(227, 145, 63, 0.85);
+  border-right: 8px solid #6a4811;
+  box-shadow: 10px 0px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px 10px 0px;
 }
-/* teller */
-.honorPage > div:nth-of-type(3) {
-  background-image: url("img/Teller.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+.honorTextLeft:hover {
+  right: 50%;
+  transition: all ease-in-out 0.5s;
 }
-.Teller {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: #e3913fd9;
-  color: white;
+.honorTextLeft h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 2rem;
 }
-/* béres */
-.honorPage > div:nth-of-type(4) {
-  background-image: url("img/Beres.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.Béres {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: #e3913fd9;
-  color: white;
+.honorTextLeft p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 2rem;
+  margin-left: 10rem;
 }
 
 /* fourth page  */
