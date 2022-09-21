@@ -61,6 +61,7 @@ html {
 }
 .landingPageTitle {
   background-color: #e3913fb2;
+  font-family: "Raleway", sans-serif;
 }
 .landingPageCenter {
   background-color: #e3913fb2;
@@ -69,10 +70,12 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  font-family: "Raleway", sans-serif;
 }
 .landingPageCenter button {
   font-size: 4vh;
   background-color: #e3913f;
+  font-family: "Raleway", sans-serif;
 }
 
 /* second page  */
@@ -106,55 +109,66 @@ html {
 }
 .neumannIntro {
   width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-color: #e3913fd9;
-  color: white;
-}
-/* telkes */
-.honorPage > div:nth-of-type(2) {
-  background-image: url("img/Telkes.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.Telkes {
-  width: 50%;
+  margin-left: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #e3913fd9;
   color: white;
   font-family: "Roboto", sans-serif;
-  flex-flow: row wrap;
+  font-size: 14px;
+}
+/* telkes */
+.honorPage > div:nth-of-type(2) {
+  display: flex;
+  background-image: url("img/Telkes.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.Telkes {
+  width: 50%;
+  margin-right: 50%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #e3913fd9;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 /* teller */
 .honorPage > div:nth-of-type(3) {
+  display: flex;
   background-image: url("img/Teller.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .Teller {
   width: 50%;
-  display: flex;
+  margin-left: 50%;
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #e3913fd9;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 /* béres */
 .honorPage > div:nth-of-type(4) {
+  display: flex;
   background-image: url("img/Beres.png");
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .Béres {
   width: 50%;
+  margin-right: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   background-color: #e3913fd9;
   color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 
 /* fourth page  */
