@@ -154,11 +154,8 @@ button {
   width: 100%;
   height: 50vh;
 }
-.row .honorPageImage img:hover {
-  filter: none;
-  transition: all ease-in-out 0.3s;
-}
 .honorPageImage {
+  z-index: 0;
   display: flex;
   width: 100%;
   height: 50vh;
@@ -170,13 +167,18 @@ button {
   margin: -5px -10px -10px -5px;
   width: 100%;
 }
+.honorPageImage img:hover {
+  filter: none;
+  transition: all ease-in-out 0.3s;
+}
 .honorTextRight {
+  z-index: 1;
+  display: flex;
   position: absolute;
   width: 50%;
-  left: 80%;
+  left: 90%;
   height: 50vh;
   text-align: left;
-  flex-direction: column;
   background-color: #e3913fd9;
   font-family: "Roboto", sans-serif;
   color: white;
@@ -188,6 +190,10 @@ button {
   left: 50%;
   transition: all ease-in-out 0.5s;
 }
+.honorTextRight:hover ~ .honorPageImage img {
+  filter: none;
+  transition: all ease-in-out 0.3s;
+}
 .honorTextRight h2 {
   font-family: "Raleway";
   font-style: normal;
@@ -195,6 +201,7 @@ button {
   font-size: 32px;
   line-height: 38px;
   margin: 2rem;
+  writing-mode: vertical-lr;
 }
 .honorTextRight p {
   font-family: "Roboto";
@@ -205,13 +212,22 @@ button {
   margin: 2rem;
   margin-right: 10rem;
 }
+.nameColumnRight {
+  width: 20%;
+  padding-left: 2rem;
+  border-right: 8px solid #6a4811;
+}
+.bioColumnRight {
+  width: 80%;
+}
 .honorTextLeft {
+  z-index: 1;
+  display: flex;
   position: absolute;
   width: 50%;
-  right: 80%;
+  right: 90%;
   height: 50vh;
   text-align: right;
-  flex-direction: column;
   background-color: #e3913fd9;
   font-family: "Roboto", sans-serif;
   color: white;
@@ -224,6 +240,10 @@ button {
   right: 50%;
   transition: all ease-in-out 0.5s;
 }
+.honorTextLeft:hover ~ .honorPageImage img {
+  filter: none;
+  transition: all ease-in-out 0.3s;
+}
 .honorTextLeft h2 {
   font-family: "Raleway";
   font-style: normal;
@@ -231,6 +251,7 @@ button {
   font-size: 32px;
   line-height: 38px;
   margin: 2rem;
+  writing-mode: vertical-lr;
 }
 .honorTextLeft p {
   font-family: "Roboto";
@@ -240,6 +261,14 @@ button {
   line-height: 23px;
   margin: 2rem;
   margin-left: 10rem;
+}
+.nameColumnLeft {
+  width: 20%;
+  padding-left: 2rem;
+  border-left: 8px solid #6a4811;
+}
+.bioColumnLeft {
+  width: 80%;
 }
 
 /* fourth page  */
