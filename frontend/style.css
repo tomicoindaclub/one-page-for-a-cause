@@ -87,7 +87,7 @@ html {
 }
 .landingPageCenter a {
   display: block;
-  width: 270px;
+  flex-grow: 1;
 }
 
 /* second page  */
