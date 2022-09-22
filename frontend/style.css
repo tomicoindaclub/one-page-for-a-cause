@@ -46,7 +46,7 @@ html::-webkit-scrollbar {
 
 /* this class is applied to all four containers  */
 .container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
 }
@@ -60,7 +60,7 @@ html::-webkit-scrollbar {
   background-image: url("img/p2_header_sepialight.png");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   color: white;
   font-family: "Raleway", sans-serif;
 }
@@ -73,8 +73,8 @@ html::-webkit-scrollbar {
 }
 .landingPageCenter {
   background-color: #e3913fb2;
-  height: 50vh;
-  width: 50vh;
+  min-height: 50vh;
+  min-width: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -108,7 +108,8 @@ html::-webkit-scrollbar {
   background-image: url("img/background(2).png");
   background-color: #cccccc;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  object-fit: cover;
   font-size: 16px;
   font-family: "Raleway", sans-serif;
   flex-flow: row wrap;
@@ -124,7 +125,6 @@ html::-webkit-scrollbar {
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
-  display: flex;
   align-items: center;
   text-align: center;
   filter: drop-shadow(5px 5px 14px rgb(140, 84, 0));
@@ -163,39 +163,39 @@ button {
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 23px;
   text-align: justify;
   padding-left: 6rem;
   padding-right: 6rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 .introPageRight img {
-  width: 55vh;
-  height: 55vh;
+  max-width: 55vh;
+  max-width: 55vh;
   filter: drop-shadow(0px 0px 22px rgb(255, 255, 255));
 }
 /* third page */
 .honorPage {
   display: flex;
   flex-direction: column;
-  height: 200vh; /* 2x bigger than other sections */
+  min-height: 200vh; /* 2x bigger than other sections */
 }
 .row {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 50vh;
+  min-height: 50vh;
 }
 .honorPageImage {
   z-index: 0;
   display: flex;
   width: 100%;
-  height: 50vh;
+  min-height: 50vh;
   position: relative;
   overflow: hidden;
 }
 .honorPageImage img {
   filter: blur(6px);
+  min-height: 50vh;
   margin: -5px -10px -10px -5px;
   width: 101%;
 }
@@ -209,7 +209,7 @@ button {
   position: absolute;
   width: 50%;
   left: 90%;
-  height: 50vh;
+  min-height: 50vh;
   text-align: left;
   background-color: #e3913fd9;
   font-family: "Roboto", sans-serif;
@@ -244,7 +244,7 @@ button {
   margin: 2rem;
   margin-right: 10rem;
   margin-left: 4rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   text-align: justify;
 }
 .nameColumnRight {
@@ -261,7 +261,7 @@ button {
   position: absolute;
   width: 50%;
   right: 90%;
-  height: 50vh;
+  min-height: 50vh;
   text-align: right;
   background-color: #e3913fd9;
   font-family: "Roboto", sans-serif;
@@ -297,7 +297,7 @@ button {
   margin: 2rem;
   margin-left: 10rem;
   margin-right: 4rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   text-align: justify;
 }
 .nameColumnLeft {
@@ -313,7 +313,7 @@ button {
 .contactPage {
   background-image: url("img/p2_header_gray.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   flex-flow: column wrap;
   justify-content: space-around;
 }
@@ -358,7 +358,7 @@ button {
 iframe {
   margin-left: 10%;
   width: 100vh;
-  height: 60vh;
+  min-height: 60vh;
 }
 
 .backToTheTop {
