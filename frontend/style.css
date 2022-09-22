@@ -86,7 +86,7 @@ html::-webkit-scrollbar {
   font-family: "Raleway", sans-serif;
   text-align: center;
   display: block;
-  height: 3rem;
+  height: 4rem;
 }
 .landingPageCenter button:hover {
   background: #d1771e;
