@@ -167,8 +167,9 @@ button {
   font-weight: 400;
   font-size: 1.6rem;
   text-align: justify;
-  padding: 3rem 4rem 3rem 4rem;
+  padding: 1rem 4rem 1rem 4rem;
   line-height: 2rem;
+  max-height: 60vh;
 }
 .introPageRight img {
   max-width: 25rem;
@@ -191,7 +192,7 @@ button {
   z-index: 0;
   display: flex;
   width: 100%;
-  min-height: 50vh;
+  max-height: 50vh;
   position: relative;
   overflow: hidden;
 }
@@ -311,7 +312,7 @@ button {
 
 /* fourth page  */
 .contactPage {
-  background-image: url("img/p2_header_gray.png");
+  background-image: url("img/background(2).png");
   background-repeat: no-repeat;
   background-size: cover;
   flex-flow: column wrap;
@@ -328,7 +329,6 @@ button {
   line-height: 47px;
   align-items: center;
   text-align: center;
-  filter: drop-shadow(5px 5px 14px rgb(140, 84, 0));
   color: white;
   margin-bottom: 2rem;
 }
