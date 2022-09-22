@@ -242,11 +242,9 @@ button {
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 23px;
   margin: 2rem;
-  margin-right: 10rem;
   margin-left: 4rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
   text-align: justify;
 }
 .nameColumnRight {
@@ -256,6 +254,7 @@ button {
 }
 .bioColumnRight {
   width: 80%;
+  max-height: auto;
 }
 .honorTextLeft {
   z-index: 1;
@@ -295,11 +294,9 @@ button {
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 23px;
+  line-height: 2rem;
   margin: 2rem;
-  margin-left: 10rem;
   margin-right: 4rem;
-  line-height: 1.5rem;
   text-align: justify;
 }
 .nameColumnLeft {
@@ -309,6 +306,7 @@ button {
 }
 .bioColumnLeft {
   width: 80%;
+  max-height: auto;
 }
 
 /* fourth page  */
