@@ -82,6 +82,10 @@ html {
   background-color: #e3913f;
   font-family: "Raleway", sans-serif;
 }
+.landingPageCenter a {
+  display: block;
+  width: 270px;
+}
 
 /* second page  */
 .introPage {
