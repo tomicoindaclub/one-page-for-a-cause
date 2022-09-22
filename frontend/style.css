@@ -84,6 +84,15 @@ html {
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 2rem;
+}
+.landingPageCenter button:hover {
+  background: #d1771e;
+  border-width: 2px 0px 0px 2px;
+  border-style: solid;
+  border-color: #6a4811;
+  box-shadow: inset 5px 8px 5px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 .landingPageCenter a {
   display: block;
@@ -130,11 +139,6 @@ button {
   transition-timing-function: ease-in-out;
 }
 
-button:hover {
-  background: #6a4811;
-  filter: drop-shadow(0px 0px 12px rgb(117, 70, 1));
-}
-
 .introPageContent {
   display: flex;
   flex-direction: row;
@@ -154,11 +158,12 @@ button:hover {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 23px;
   text-align: justify;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  line-height: 2rem;
 }
 .introPageRight img {
   width: 55vh;
@@ -221,7 +226,7 @@ button:hover {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 38px;
   margin: 2rem;
   writing-mode: vertical-lr;
@@ -230,10 +235,13 @@ button:hover {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 23px;
   margin: 2rem;
   margin-right: 10rem;
+  margin-left: 4rem;
+  line-height: 2rem;
+  text-align: justify;
 }
 .nameColumnRight {
   width: 20%;
@@ -271,7 +279,7 @@ button:hover {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 38px;
   margin: 2rem;
   writing-mode: vertical-lr;
@@ -280,10 +288,13 @@ button:hover {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 23px;
   margin: 2rem;
   margin-left: 10rem;
+  margin-right: 4rem;
+  line-height: 2rem;
+  text-align: justify;
 }
 .nameColumnLeft {
   width: 20%;
@@ -337,6 +348,7 @@ button:hover {
   box-shadow: -5px 8px 4px 3px rgba(0, 0, 0, 0.25);
   border-radius: 10px 0px 0px 10px;
   flex-grow: 0.3;
+  font-size: 25px;
 }
 
 iframe {
@@ -351,7 +363,7 @@ iframe {
   justify-content: center !important;
   bottom: 20px !important;
   right: 20px !important;
-  z-index: 1 !important;
+  z-index: 3 !important;
   transition: 0.7s;
   filter: brightness(60%);
 }
