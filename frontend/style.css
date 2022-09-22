@@ -1,367 +1,370 @@
 /* --- start of CSS reset --- */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: none;
-    box-sizing: border-box;
-    background: transparent;
-    font-family: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a img {
-    border: none;
+  border: none;
 }
 
 button,
 a {
-    cursor: pointer;
-    color: inherit;
+  cursor: pointer;
+  color: inherit;
 }
 
 textarea {
-    resize: none;
+  resize: none;
 }
 
 button,
 textarea,
 select {
-    appearance: none !important;
-    border-radius: 0;
+  appearance: none !important;
+  border-radius: 0;
 }
 /* --- end of CSS reset --- */
 
 html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* this class is applied to all four containers  */
 .container {
-    height: 100vh;
-    width: 100%;
-    display: flex;
+  height: 100vh;
+  width: 100%;
+  display: flex;
 }
 
 /* first page */
 .landingPage {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    background-image: url("img/p2_header_sepialight.png");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: white;
-    font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("img/p2_header_sepialight.png");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-family: "Raleway", sans-serif;
 }
 .landingPageTitle {
-    background-color: #e3913fb2;
-    font-family: "Raleway", sans-serif;
-    text-align: center;
-    padding: 30px;
-    border-radius: 10px 10px 10px 10px;
+  background-color: #e3913fb2;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px 10px 10px 10px;
 }
 .landingPageCenter {
-    background-color: #e3913fb2;
-    height: 50vh;
-    width: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-family: "Raleway", sans-serif;
-    border-radius: 10px 10px 10px 10px;
+  background-color: #e3913fb2;
+  height: 50vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Raleway", sans-serif;
+  border-radius: 10px 10px 10px 10px;
 }
 .landingPageCenter button {
-    font-size: 4vh;
-    background-color: #e3913f;
-    font-family: "Raleway", sans-serif;
+  font-size: 4vh;
+  background-color: #e3913f;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 .landingPageCenter a {
-    display: block;
-    width: 270px;
+  display: block;
+  width: 270px;
 }
 
 /* second page  */
 .introPage {
-    background-image: url("img/background(2).png");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    font-size: 16px;
-    font-family: "Raleway", sans-serif;
-    flex-flow: row wrap;
-    color: white;
-    text-align: center;
-    justify-content: center;
+  background-image: url("img/background(2).png");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  flex-flow: row wrap;
+  color: white;
+  text-align: center;
+  justify-content: center;
 }
 .introPageHeader {
-    display: flex;
-    justify-content: center;
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    filter: drop-shadow(5px 5px 14px rgb(140, 84, 0));
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  filter: drop-shadow(5px 5px 14px rgb(140, 84, 0));
 }
 button {
-    background: #e3913f;
-    border-right: 8px solid #6a4811;
-    box-shadow: 5px 8px 4px 3px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    height: 40px;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    transition: 1s;
-    transition-timing-function: ease-in-out;
+  background: #e3913f;
+  border-right: 8px solid #6a4811;
+  box-shadow: 5px 8px 4px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  height: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
 }
 
 button:hover {
-    background: #6a4811;
-    filter: drop-shadow(0px 0px 12px rgb(117, 70, 1));
+  background: #6a4811;
+  filter: drop-shadow(0px 0px 12px rgb(117, 70, 1));
 }
 
 .introPageContent {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .introPageLeft,
 .introPageRight {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 .introPageLeft {
-    background: rgba(227, 145, 63, 0.85);
-    border-right: 8px solid #6a4811;
-    box-shadow: 5px 8px 4px 3px rgba(0, 0, 0, 0.25);
-    border-radius: 0px 10px 10px 0px;
-    align-items: center;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: justify;
-    padding-left: 25px;
-    padding-right: 25px;
+  background: rgba(227, 145, 63, 0.85);
+  border-right: 8px solid #6a4811;
+  box-shadow: 5px 8px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px 10px 0px;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .introPageRight img {
-    width: 55vh;
-    height: 55vh;
-    filter: drop-shadow(0px 0px 22px rgb(255, 255, 255));
+  width: 55vh;
+  height: 55vh;
+  filter: drop-shadow(0px 0px 22px rgb(255, 255, 255));
 }
 /* third page */
 .honorPage {
-    display: flex;
-    flex-direction: column;
-    height: 200vh; /* 2x bigger than other sections */
+  display: flex;
+  flex-direction: column;
+  height: 200vh; /* 2x bigger than other sections */
 }
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50vh;
 }
 .honorPageImage {
-    z-index: 0;
-    display: flex;
-    width: 100%;
-    height: 50vh;
-    position: relative;
-    overflow: hidden;
+  z-index: 0;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
 }
 .honorPageImage img {
-    filter: blur(6px);
-    margin: -5px -10px -10px -5px;
-    width: 100%;
+  filter: blur(6px);
+  margin: -5px -10px -10px -5px;
+  width: 100%;
 }
 .honorPageImage img:hover {
-    filter: none;
-    transition: all ease-in-out 0.3s;
+  filter: none;
+  transition: all ease-in-out 0.3s;
 }
 .honorTextRight {
-    z-index: 1;
-    display: flex;
-    position: absolute;
-    width: 50%;
-    left: 90%;
-    height: 50vh;
-    text-align: left;
-    background-color: #e3913fd9;
-    font-family: "Roboto", sans-serif;
-    color: white;
-    border-left: 8px solid #6a4811;
-    box-shadow: -10px 0px 4px 3px rgba(0, 0, 0, 0.25);
-    border-radius: 10px 0px 0px 10px;
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  width: 50%;
+  left: 90%;
+  height: 50vh;
+  text-align: left;
+  background-color: #e3913fd9;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  border-left: 8px solid #6a4811;
+  box-shadow: -10px 0px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 0px 0px 10px;
 }
 .honorTextRight:hover {
-    left: 50%;
-    transition: all ease-in-out 0.5s;
+  left: 50%;
+  transition: all ease-in-out 0.5s;
 }
 .honorTextRight:hover ~ .honorPageImage img {
-    filter: none;
-    transition: all ease-in-out 0.3s;
+  filter: none;
+  transition: all ease-in-out 0.3s;
 }
 .honorTextRight h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    margin: 2rem;
-    writing-mode: vertical-lr;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 2rem;
+  writing-mode: vertical-lr;
 }
 .honorTextRight p {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    margin: 2rem;
-    margin-right: 10rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 2rem;
+  margin-right: 10rem;
 }
 .nameColumnRight {
-    width: 20%;
-    padding-left: 2rem;
-    border-right: 8px solid #6a4811;
+  width: 20%;
+  padding-left: 2rem;
+  border-right: 8px solid #6a4811;
 }
 .bioColumnRight {
-    width: 80%;
+  width: 80%;
 }
 .honorTextLeft {
-    z-index: 1;
-    display: flex;
-    position: absolute;
-    width: 50%;
-    right: 90%;
-    height: 50vh;
-    text-align: right;
-    background-color: #e3913fd9;
-    font-family: "Roboto", sans-serif;
-    color: white;
-    background: rgba(227, 145, 63, 0.85);
-    border-right: 8px solid #6a4811;
-    box-shadow: 10px 0px 4px 3px rgba(0, 0, 0, 0.25);
-    border-radius: 0px 10px 10px 0px;
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  width: 50%;
+  right: 90%;
+  height: 50vh;
+  text-align: right;
+  background-color: #e3913fd9;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background: rgba(227, 145, 63, 0.85);
+  border-right: 8px solid #6a4811;
+  box-shadow: 10px 0px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px 10px 0px;
 }
 .honorTextLeft:hover {
-    right: 50%;
-    transition: all ease-in-out 0.5s;
+  right: 50%;
+  transition: all ease-in-out 0.5s;
 }
 .honorTextLeft:hover ~ .honorPageImage img {
-    filter: none;
-    transition: all ease-in-out 0.3s;
+  filter: none;
+  transition: all ease-in-out 0.3s;
 }
 .honorTextLeft h2 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    margin: 2rem;
-    writing-mode: vertical-lr;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 2rem;
+  writing-mode: vertical-lr;
 }
 .honorTextLeft p {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    margin: 2rem;
-    margin-left: 10rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 2rem;
+  margin-left: 10rem;
 }
 .nameColumnLeft {
-    width: 20%;
-    padding-left: 2rem;
-    border-left: 8px solid #6a4811;
+  width: 20%;
+  padding-left: 2rem;
+  border-left: 8px solid #6a4811;
 }
 .bioColumnLeft {
-    width: 80%;
+  width: 80%;
 }
 
 /* fourth page  */
 .contactPage {
-    background-image: url("img/p2_header_gray.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    flex-flow: column wrap;
+  background-image: url("img/p2_header_gray.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-flow: column wrap;
   justify-content: space-around;
 }
 
 .contactPageHeader {
-    display: flex;
-    justify-content: center;
-    font-family: "Raleway" !important;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    align-items: center;
-    text-align: center;
-    filter: drop-shadow(5px 5px 14px rgb(140, 84, 0));
-    color: white;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway" !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  align-items: center;
+  text-align: center;
+  filter: drop-shadow(5px 5px 14px rgb(140, 84, 0));
+  color: white;
+  margin-bottom: 2rem;
 }
 
 .contactBoxContent {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .contactBox {
-    display: flex;
-    /* text-align: left; */
-    justify-content: space-evenly;
-    flex-direction: column;
-    font-family: "Raleway", sans-serif;
-    color: white;
-    padding: 0 25px 0 25px;
-    background: rgba(227, 145, 63, 0.85);
-    border-left: 8px solid #6a4811;
-    box-shadow: -5px 8px 4px 3px rgba(0, 0, 0, 0.25);
-    border-radius: 10px 0px 0px 10px;
-    flex-grow: 0.3;
+  display: flex;
+  /* text-align: left; */
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  padding: 0 25px 0 25px;
+  background: rgba(227, 145, 63, 0.85);
+  border-left: 8px solid #6a4811;
+  box-shadow: -5px 8px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 0px 0px 10px;
+  flex-grow: 0.3;
 }
 
 iframe {
-    margin-left: 10%;
-    width: 100vh;
-    height: 60vh;
+  margin-left: 10%;
+  width: 100vh;
+  height: 60vh;
 }
 
 .backToTheTop {
-    position: fixed !important;
-    display: flex !important;
-    justify-content: center !important;
-    bottom: 20px !important;
-    right: 20px !important;
-    z-index: 1 !important;
-    transition: 0.7s;
-    filter: brightness(60%);
+  position: fixed !important;
+  display: flex !important;
+  justify-content: center !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  z-index: 1 !important;
+  transition: 0.7s;
+  filter: brightness(60%);
 }
 
 .backToTheTop img {
-    filter: brightness(90%) !important;
-    filter: drop-shadow(10px 10px 8px rgb(117, 70, 1)) !important;
-    width: 70px !important;
-    height: 70px !important;
+  filter: brightness(90%) !important;
+  filter: drop-shadow(10px 10px 8px rgb(117, 70, 1)) !important;
+  width: 70px !important;
+  height: 70px !important;
 }
 
 .backToTheTop:hover {
-    transform: scale(1.5);
-    filter: brightness(100%);
-    filter: drop-shadow(0px 0px 12px rgb(117, 70, 1));
+  transform: scale(1.5);
+  filter: brightness(100%);
+  filter: drop-shadow(0px 0px 12px rgb(117, 70, 1));
 }
