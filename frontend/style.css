@@ -39,6 +39,10 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+/* Hide scrollbar */
+html::-webkit-scrollbar {
+  display: none;
+}
 
 /* this class is applied to all four containers  */
 .container {
@@ -193,7 +197,7 @@ button {
 .honorPageImage img {
   filter: blur(6px);
   margin: -5px -10px -10px -5px;
-  width: 100%;
+  width: 101%;
 }
 .honorPageImage img:hover {
   filter: none;
